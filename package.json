@@ -1,0 +1,13 @@
+{
+	"name": "typedoc-object-repro",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"typedoc": "^0.17.0-2",
+		"typescript": "^3.7.5"
+	},
+	"scripts": {
+		"build-docs": "typedoc --mode library --out docs src/index.ts"
+	}
+}
